@@ -105,7 +105,6 @@ sudo python3 webui.py --port 9000 --no-browser
 
 プロトコルのフレーミング（読み書きのチャンク長・16bit アドレス指定）や DPI 換算、
 レポートレート値などを、**ハードウェア不要のユニットテスト**で検証しています。
-push 時に GitHub Actions でも実行されます（`.github/workflows/tests.yml`）。
 
 ```sh
 python3 -m unittest discover -s tests
